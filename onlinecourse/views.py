@@ -163,6 +163,9 @@ def extract_answers(request):
 		context['choices'] = choices
 
 		return render(request, 'onlinecourse/exam_result_bootstrap.html', context)
+	
+
+
 
 
 
